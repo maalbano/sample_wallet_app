@@ -1,16 +1,57 @@
 # sample_wallet_app
 
-A new Flutter project.
+A Flutter wallet application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Dart (comes with Flutter)
+- Android Studio or Xcode (for mobile development)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Running the App
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Command Line
+
+1. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
+2. **Run the app on an emulator or connected device:**
+   ```sh
+   flutter run
+   ```
+   You can specify a device with `-d <device_id>` if you have multiple devices/emulators.
+
+#### Using VS Code
+
+You can also run the app directly from Visual Studio Code:
+
+1. Open the project in VS Code.
+2. Select your target device from the device selector at the bottom right.
+3. Press <kbd>F5</kbd> or click the green **Run** button to launch the app.
+
+![Run app in VS Code](vscode-app.png)
+
+### Running Tests
+
+#### Command Line
+
+To run all unit and widget tests:
+
+```sh
+flutter test
+```
+
+Test files are located in the `test/` directory.
+
+#### Using VS Code
+
+You can also run tests in VS Code:
+
+1. Open the project in VS Code.
+2. Open the test file you want to run, or right-click the `test/` folder.
+3. Click the **Run** or **Debug** test icons above the test functions, or use the Testing sidebar.
+
+![Run tests in VS Code](vscode-tests.png)
