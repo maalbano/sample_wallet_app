@@ -1,10 +1,9 @@
-
-import 'package:bloc_clean_architecture/src/comman/colors.dart';
-import 'package:bloc_clean_architecture/src/comman/constant.dart';
-import 'package:bloc_clean_architecture/src/comman/screens.dart';
-import 'package:bloc_clean_architecture/src/presentation/cubit/theme/theme_cubit.dart';
-import 'package:bloc_clean_architecture/src/presentation/widget/custom_elevated_button.dart';
-import 'package:bloc_clean_architecture/src/presentation/widget/custom_outlined_button.dart';
+import 'package:sample_wallet_app/src/comman/colors.dart';
+import 'package:sample_wallet_app/src/comman/constant.dart';
+import 'package:sample_wallet_app/src/comman/screens.dart';
+import 'package:sample_wallet_app/src/presentation/cubit/theme/theme_cubit.dart';
+import 'package:sample_wallet_app/src/presentation/widget/custom_elevated_button.dart';
+import 'package:sample_wallet_app/src/presentation/widget/custom_outlined_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -183,7 +182,7 @@ class _BuildButtonIcon extends StatelessWidget {
     required this.icon,
     required this.label,
   }) : super(key: key);
-  
+
   final VoidCallback onTap;
   final IconData icon;
   final String label;

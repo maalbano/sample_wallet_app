@@ -1,4 +1,4 @@
-import 'package:bloc_clean_architecture/src/domain/repositories/transaction_repository.dart';
+import 'package:sample_wallet_app/src/domain/repositories/transaction_repository.dart';
 
 class SendMoney {
   SendMoney(this.repository);

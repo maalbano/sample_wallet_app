@@ -1,4 +1,4 @@
-import 'package:bloc_clean_architecture/src/comman/constant.dart';
+import 'package:sample_wallet_app/src/comman/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 

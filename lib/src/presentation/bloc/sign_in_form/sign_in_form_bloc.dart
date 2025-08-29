@@ -1,4 +1,4 @@
-import 'package:bloc_clean_architecture/src/domain/usecase/login.dart';
+import 'package:sample_wallet_app/src/domain/usecase/login.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 // Event definitions

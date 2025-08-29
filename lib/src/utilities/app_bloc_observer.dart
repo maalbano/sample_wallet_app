@@ -1,5 +1,5 @@
-import 'package:bloc_clean_architecture/src/utilities/extensions/string_extension.dart';
-import 'package:bloc_clean_architecture/src/utilities/logger.dart';
+import 'package:sample_wallet_app/src/utilities/extensions/string_extension.dart';
+import 'package:sample_wallet_app/src/utilities/logger.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 /// [BlocObserver] which logs all bloc state changes, errors and events.
@@ -25,14 +25,14 @@ class AppBlocObserver extends BlocObserver {
   @override
   void onEvent(Bloc<Object?, Object?> bloc, Object? event) {
     final buffer = StringBuffer()
-     ..writeln('On Event :')
+      ..writeln('On Event :')
       ..writeln('Bloc: ${bloc.runtimeType}')
       ..write('Event: ${event.toString().limit(200)}');
     logger.info(buffer.toString());
     super.onEvent(bloc, event);
   }
 
-    @override
+  @override
   void onChange(BlocBase bloc, Change change) {
     logger.info(
       'Bloc: ${bloc.runtimeType} | ${change.currentState} | ${change.nextState}',

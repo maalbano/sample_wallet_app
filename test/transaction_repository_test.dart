@@ -1,8 +1,8 @@
-import 'package:bloc_clean_architecture/src/comman/failure.dart';
+import 'package:sample_wallet_app/src/comman/failure.dart';
 
-import 'package:bloc_clean_architecture/src/data/datasource/transaction_remote_data_source.dart';
-import 'package:bloc_clean_architecture/src/data/repository/transaction_repository_impl.dart';
-import 'package:bloc_clean_architecture/src/comman/failure.dart';
+import 'package:sample_wallet_app/src/data/datasource/transaction_remote_data_source.dart';
+import 'package:sample_wallet_app/src/data/repository/transaction_repository_impl.dart';
+import 'package:sample_wallet_app/src/comman/failure.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';

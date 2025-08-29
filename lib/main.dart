@@ -1,14 +1,14 @@
 import 'dart:async';
 
-import 'package:bloc_clean_architecture/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/transactions/send_money_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/transactions/view_transactions_bloc.dart';
-import 'package:bloc_clean_architecture/src/utilities/logger.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/transactions/send_money_bloc.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/transactions/view_transactions_bloc.dart';
+import 'package:sample_wallet_app/src/utilities/logger.dart';
 import 'package:bloc_concurrency/bloc_concurrency.dart' as bloc_concurrency;
-import 'package:bloc_clean_architecture/src/comman/themes.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/authenticator_watcher/authenticator_watcher_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/cubit/theme/theme_cubit.dart';
-import 'package:bloc_clean_architecture/src/utilities/app_bloc_observer.dart';
+import 'package:sample_wallet_app/src/comman/themes.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/authenticator_watcher/authenticator_watcher_bloc.dart';
+import 'package:sample_wallet_app/src/presentation/cubit/theme/theme_cubit.dart';
+import 'package:sample_wallet_app/src/utilities/app_bloc_observer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'src/utilities/go_router_init.dart';

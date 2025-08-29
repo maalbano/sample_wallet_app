@@ -1,5 +1,5 @@
-import 'package:bloc_clean_architecture/src/comman/constant.dart';
-import 'package:bloc_clean_architecture/src/utilities/debouncer.dart';
+import 'package:sample_wallet_app/src/comman/constant.dart';
+import 'package:sample_wallet_app/src/utilities/debouncer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:form_field_validator/form_field_validator.dart';

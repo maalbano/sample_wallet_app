@@ -1,7 +1,7 @@
-import 'package:bloc_clean_architecture/src/comman/routes.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/auth/sign_in_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/dashboard/dashboard_screen.dart';
+import 'package:sample_wallet_app/src/comman/routes.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
+import 'package:sample_wallet_app/src/presentation/page/auth/sign_in_screen.dart';
+import 'package:sample_wallet_app/src/presentation/page/dashboard/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

@@ -1,7 +1,7 @@
-import 'package:bloc_clean_architecture/src/comman/failure.dart';
-import 'package:bloc_clean_architecture/src/domain/repositories/transaction_repository.dart';
-import 'package:bloc_clean_architecture/src/domain/usecase/fetch_transactions.dart';
-import 'package:bloc_clean_architecture/src/domain/usecase/send_money.dart';
+import 'package:sample_wallet_app/src/comman/failure.dart';
+import 'package:sample_wallet_app/src/domain/repositories/transaction_repository.dart';
+import 'package:sample_wallet_app/src/domain/usecase/fetch_transactions.dart';
+import 'package:sample_wallet_app/src/domain/usecase/send_money.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';

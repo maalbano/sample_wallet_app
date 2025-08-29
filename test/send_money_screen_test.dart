@@ -1,5 +1,5 @@
-import 'package:bloc_clean_architecture/src/presentation/bloc/transactions/send_money_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/send_money_screen.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/transactions/send_money_bloc.dart';
+import 'package:sample_wallet_app/src/presentation/page/send_money_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

@@ -1,6 +1,6 @@
 // ignore_for_file: always_use_package_imports
 
-import 'package:bloc_clean_architecture/src/comman/constant.dart';
+import 'package:sample_wallet_app/src/comman/constant.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

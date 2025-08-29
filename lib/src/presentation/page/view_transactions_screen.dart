@@ -1,6 +1,6 @@
-import 'package:bloc_clean_architecture/injection.dart' as di;
-import 'package:bloc_clean_architecture/src/domain/usecase/fetch_transactions.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/transactions/view_transactions_bloc.dart';
+import 'package:sample_wallet_app/injection.dart' as di;
+import 'package:sample_wallet_app/src/domain/usecase/fetch_transactions.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/transactions/view_transactions_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';

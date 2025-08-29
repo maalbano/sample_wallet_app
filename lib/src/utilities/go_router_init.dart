@@ -1,12 +1,12 @@
-import 'package:bloc_clean_architecture/src/comman/routes.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/auth/sign_in_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/auth/sign_up_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/dashboard/dashboard_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/error/error_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/send_money_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/splash/splash_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/view_transactions_screen.dart';
-import 'package:bloc_clean_architecture/src/utilities/logger.dart';
+import 'package:sample_wallet_app/src/comman/routes.dart';
+import 'package:sample_wallet_app/src/presentation/page/auth/sign_in_screen.dart';
+import 'package:sample_wallet_app/src/presentation/page/auth/sign_up_screen.dart';
+import 'package:sample_wallet_app/src/presentation/page/dashboard/dashboard_screen.dart';
+import 'package:sample_wallet_app/src/presentation/page/error/error_screen.dart';
+import 'package:sample_wallet_app/src/presentation/page/send_money_screen.dart';
+import 'package:sample_wallet_app/src/presentation/page/splash/splash_screen.dart';
+import 'package:sample_wallet_app/src/presentation/page/view_transactions_screen.dart';
+import 'package:sample_wallet_app/src/utilities/logger.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

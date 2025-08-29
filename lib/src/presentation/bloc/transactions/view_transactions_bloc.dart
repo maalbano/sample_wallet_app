@@ -1,4 +1,4 @@
-import 'package:bloc_clean_architecture/src/domain/usecase/fetch_transactions.dart';
+import 'package:sample_wallet_app/src/domain/usecase/fetch_transactions.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 // Event

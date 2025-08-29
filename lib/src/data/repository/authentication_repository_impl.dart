@@ -1,8 +1,8 @@
 import 'dart:io';
-import 'package:bloc_clean_architecture/src/comman/exception.dart';
-import 'package:bloc_clean_architecture/src/comman/failure.dart';
-import 'package:bloc_clean_architecture/src/data/datasource/authentication_remote_data_source.dart';
-import 'package:bloc_clean_architecture/src/domain/repositories/autentication_repository.dart';
+import 'package:sample_wallet_app/src/comman/exception.dart';
+import 'package:sample_wallet_app/src/comman/failure.dart';
+import 'package:sample_wallet_app/src/data/datasource/authentication_remote_data_source.dart';
+import 'package:sample_wallet_app/src/domain/repositories/autentication_repository.dart';
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 

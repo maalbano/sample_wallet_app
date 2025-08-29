@@ -1,4 +1,4 @@
-import 'package:bloc_clean_architecture/src/comman/colors.dart';
+import 'package:sample_wallet_app/src/comman/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

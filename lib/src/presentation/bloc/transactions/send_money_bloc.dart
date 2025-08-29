@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bloc_clean_architecture/src/domain/usecase/send_money.dart';
+import 'package:sample_wallet_app/src/domain/usecase/send_money.dart';
 
 // Events
 abstract class SendMoneyEvent {}

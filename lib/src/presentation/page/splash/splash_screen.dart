@@ -1,7 +1,7 @@
-import 'package:bloc_clean_architecture/src/comman/routes.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/authenticator_watcher/authenticator_watcher_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/authenticator_watcher/authenticator_watcher_event.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/authenticator_watcher/authenticator_watcher_state.dart';
+import 'package:sample_wallet_app/src/comman/routes.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/authenticator_watcher/authenticator_watcher_bloc.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/authenticator_watcher/authenticator_watcher_event.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/authenticator_watcher/authenticator_watcher_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';

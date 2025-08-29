@@ -1,5 +1,5 @@
-import 'package:bloc_clean_architecture/src/comman/api.dart';
-import 'package:bloc_clean_architecture/src/comman/failure.dart';
+import 'package:sample_wallet_app/src/comman/api.dart';
+import 'package:sample_wallet_app/src/comman/failure.dart';
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 

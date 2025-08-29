@@ -1,9 +1,9 @@
-import 'package:bloc_clean_architecture/src/presentation/bloc/transactions/send_money_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/widget/custom_text_form_field.dart';
+import 'package:sample_wallet_app/src/presentation/bloc/transactions/send_money_bloc.dart';
+import 'package:sample_wallet_app/src/presentation/widget/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bloc_clean_architecture/injection.dart' as di;
+import 'package:sample_wallet_app/injection.dart' as di;
 
 class SendMoneyScreen extends StatefulWidget {
   const SendMoneyScreen({super.key});

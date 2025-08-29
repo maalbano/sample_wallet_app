@@ -1,7 +1,7 @@
-import 'package:bloc_clean_architecture/src/comman/failure.dart';
-import 'package:bloc_clean_architecture/src/domain/repositories/transaction_repository.dart';
-import 'package:bloc_clean_architecture/src/data/datasource/transaction_remote_data_source.dart';
-import 'package:bloc_clean_architecture/src/domain/usecase/fetch_transactions.dart';
+import 'package:sample_wallet_app/src/comman/failure.dart';
+import 'package:sample_wallet_app/src/domain/repositories/transaction_repository.dart';
+import 'package:sample_wallet_app/src/data/datasource/transaction_remote_data_source.dart';
+import 'package:sample_wallet_app/src/domain/usecase/fetch_transactions.dart';
 import 'package:dartz/dartz.dart';
 
 class TransactionRepositoryImpl implements TransactionRepository {
